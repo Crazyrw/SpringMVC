@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //编写一个对象
+        var user = {
+          name:"renwen",
+          age: 3,
+          sex:"男"
+        };
+        //js->json
+        var str = JSON.stringify(user);
+        console.log(str)
+        //json->js
+        var user2 = JSON.parse(str)
+        console.log(user2.name, user2.age, user2.sex)
+    </script>
+</body>
+</html>
